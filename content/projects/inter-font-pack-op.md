@@ -1,7 +1,7 @@
 ---
 title: "Inter Font Pack for OnePlus devices"
 date: 2021-09-22T19:10:32+02:00
-draft: true
+draft: false
 ---
 
 #### [GitHub repo](https://github.com/tclement0922/inter-font-pack-op)
