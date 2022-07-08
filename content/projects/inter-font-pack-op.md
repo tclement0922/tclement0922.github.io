@@ -1,10 +1,13 @@
 ---
-title: "Inter Font Pack for OnePlus devices"
+title: "Inter Font Pack for OnePlus devices [ARCHIVED - UNMAINTAINED]"
 date: 2021-09-22T19:10:32+02:00
 draft: false
 ---
 
 #### [GitHub repo](https://github.com/tclement0922/inter-font-pack-op)
+
+> ## UNMAINTAINED
+> ### As I don't own a OnePlus phone anymore, I can't maintain this module.
 
 A Magisk module that replaces OnePlus's system fonts with Inter and other complementary fonts. Forked from [kdrad0n's inter-font-pack project](https://github.com/kdrag0n/inter-font-pack).
 

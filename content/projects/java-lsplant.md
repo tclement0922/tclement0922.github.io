@@ -1,10 +1,13 @@
 ---
-title: "Java-LSPlant"
+title: "jLSPlant [ARCHIVED - UNMAINTAINED]"
 date: 2022-03-13T12:22:56+01:00
 draft: false
 ---
 
-#### [GitHub repo](https://github.com/tclement0922/Java-LSPlant)
+#### [GitHub repo](https://github.com/tclement0922/jLSPlant)
+
+> ## UNMAINTAINED
+> ### This project is currently not maintained because it contains too many bugs and I don't have enough knowledge about ART and C++ to fix them. I archive it accordingly, but I could always start working on it again later.
 
 An unofficial Java implementation of the LSPlant hooking framework.
 
@@ -19,4 +22,4 @@ Compatibility isn't guaranteed for every device. Some OEM system modifications, 
  - [Dobby](https://github.com/jmpews/Dobby) used as inline hook framework
  - Some files are based on [Pine](https://github.com/canyie/pine)
 
-For more informations and licenses notices, click [there](https://github.com/tclement0922/Java-LSPlant).
+For more informations and licenses notices, click [there](https://github.com/tclement0922/jLSPlant).
