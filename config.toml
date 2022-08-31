@@ -17,8 +17,8 @@ paginate = 10
   dateformNum = "2006-01-02"
   dateformNumTime = "2006-01-02 15:04"
 
-  homeSubtitle = "17 yo french student who likes coding"
-  description = "Personal website of tclement0922, a french student."
+  homeSubtitle = "A french computer science student"
+  description = "Personal website of tclement0922."
   keywords = "tclement0922, homepage"
   images = [""]
 
