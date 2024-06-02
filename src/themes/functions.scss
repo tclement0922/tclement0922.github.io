@@ -1,0 +1,9 @@
+@use 'sass:color';
+
+@function theme_color($theme, $color, $shade) {
+  @return map-get(map-get($theme, $color), $shade);
+}
+
+@function hex_to_rgba($hex, $alpha: 1) {
+  @return rgba(color.red($hex), color.green($hex), color.blue($hex), $alpha);
+}

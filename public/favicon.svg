@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<svg width="512px" height="512px" viewBox="0 0 512 512" version="1.1"
+     xmlns="http://www.w3.org/2000/svg">
+    <defs>
+        <linearGradient gradientUnits="objectBoundingBox" x1="0" y1="1" x2="1" y2="0" id="lin">
+            <stop offset="0" stop-color="#824BFF"/>
+            <stop offset="1" stop-color="#824BFF" stop-opacity="0"/>
+        </linearGradient>
+        <radialGradient gradientUnits="objectBoundingBox" cx="1" cy="1" fx="1" fy="1" r="0.7"
+                        gradientTransform="translate(1,1),rotate(-45),translate(-1,-1)" id="rad">
+            <stop offset="0" stop-color="#BC4AFF"/>
+            <stop offset="1" stop-color="#BC4AFF" stop-opacity="0"/>
+        </radialGradient>
+    </defs>
+    <path d="M0 0L512 0L512 512L0 512L0 0Z" fill="#000"/>
+    <rect width="100%" height="100%" fill="url(#lin)" fill-opacity="0.5"/>
+    <rect width="100%" height="100%" fill="url(#rad)" fill-opacity="0.33"/>
+    <path d="M283.362 256C283.362 197.09 331.118 149.333 390.029 149.333C427.841 149.333 461.057 169.008 480 198.678L439.179 215.007C427.439 200.946 409.779 192 390.029 192C354.682 192 326.029 220.654 326.029 256C326.029 291.346 354.682 320 390.029 320C409.779 320 427.439 311.054 439.179 296.993L480 313.322C461.057 342.992 427.841 362.667 390.029 362.667C331.118 362.667 283.362 314.91 283.362 256L283.362 256Z"
+          fill="#FFFFFF"/>
+    <path d="M53.332 149.333L245.333 149.333L245.333 170.668C245.333 176.559 243.251 181.587 239.085 185.752C234.92 189.917 229.892 192 224.001 192L160 192L160 341.335C160 347.225 157.917 352.253 153.752 356.419C149.587 360.584 144.559 362.667 138.668 362.667L117.333 362.667L117.333 192L32 192L32 170.665C32 164.775 34.0827 159.747 38.248 155.581C42.4133 151.416 47.4413 149.333 53.332 149.333L53.332 149.333Z"
+          fill="#FFFFFF"/>
+</svg>

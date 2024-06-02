@@ -1,0 +1,63 @@
+@import '@fontsource-variable/inter/index.css';
+@import '@fontsource-variable/jetbrains-mono/index.css';
+@import '@/themes/purplish.scss';
+@import 'base';
+
+body {
+  height: 100vh;
+  transition:
+    color 0.5s,
+    background-color 0.5s;
+  line-height: 1.6;
+  font-family: $regularFont, sans-serif;
+  font-size: 15px;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+
+  :not(.dark) & {
+    background: main_theme_color(neutral, 20);
+    color: main_theme_color(neutral, 900);
+  }
+
+  .dark & {
+    :not(.amoled) & {
+      background: main_theme_color(neutral, 950);
+    }
+
+    .amoled & {
+      background: main_theme_color(neutral, 1000);
+    }
+
+    color: main_theme_color(neutral, 100);
+  }
+}
+
+.p-drawer {
+  border-width: 0 !important;
+
+  .p-drawer-title {
+    @extend .text-monospace;
+  }
+
+  .p-drawer-left & {
+    border-right-width: 1px !important;
+  }
+
+  .p-drawer-right & {
+    border-left-width: 1px !important;
+  }
+
+  .p-drawer-top & {
+    border-bottom-width: 1px !important;
+  }
+
+  .p-drawer-bottom & {
+    border-top-width: 1px !important;
+  }
+
+  .p-drawer-content {
+    display: flex;
+    flex-direction: column;
+  }
+}

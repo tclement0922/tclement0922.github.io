@@ -1,0 +1,9 @@
+@import 'purplish';
+
+:export {
+  @each $scheme, $shades in $purplish {
+    @each $shade, $color in $shades {
+      #{$scheme + '.' + $shade}: $color;
+    }
+  }
+}
